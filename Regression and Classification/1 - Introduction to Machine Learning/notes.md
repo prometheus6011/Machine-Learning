@@ -25,3 +25,22 @@
 
 ##### Dimensionality reduction
 - compress data using fewer numbers
+
+# Regression Model
+- regression model predicts numbers
+- classification model predicts categories, small number of possible outputs
+- terminology
+-   training set: data used to train the model
+- notation
+-   $x$ is the input variable feature
+-   $y$ is the output or target variable
+-   $m$ number of training examples
+-   ($x$, $y$) is a single training example
+-   ($x^i$, $y^i$) is the $i^{th}$ training example
+
+- traing set (features, targets) -> learning algorithm -> $f$
+-   $x$ -> $f$ -> $y_{hat}$
+-   feature -> model -> prediction (estimated $y$)
+- $f_{w, b}(x) = wx+b$
+- linear regression with one variable
+-   univariate linear regression
